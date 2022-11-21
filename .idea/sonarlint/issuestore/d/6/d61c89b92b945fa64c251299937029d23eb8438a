@@ -1,0 +1,8 @@
+
+h
+java:S1301="KReplace this "switch" statement by "if" statements to increase readability.(ÜŸ•8Ó¦’àÉ0
+
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§Ûëè8¢§’àÉ0
+~
+java:S1450"aRemove the "sensorNameTextView" field and declare it as a local variable in the relevant methods.(„”÷ë8¦§’àÉ0
+>	java:S131=""Add a default case to this switch.(ÜŸ•8Ë§’àÉ0

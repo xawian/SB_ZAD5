@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="icon_description">TODO</string>
+    <string name="sensor_name_text">Example application</string>
+    <string name="sensor_type_text">Description</string>
+    <string name="menu_button">Show amount of sensors</string>
+    <string name="sensors_count">Liczba czujnikow: %d</string>
+    <string name="example_sensor_name">Example sensor name</string>
+    <string name="example_sensor_value">Example sensor value</string>
+    <string name="missing_sensor">Brak czujnika</string>
+    <string name="get_location">Pobierz lokalizację</string>
+    <string name="get_address">Pobierz adres</string>
+    <string name="last_localization">Wciśnij przycisk, aby pobrać ostatnią lokalizację</string>
+    <string name="location_permission_denied">Odmówiono zezwolenia dostępu do lokalizacji</string>
+    <string name="last_address">Wciśnij przycisk, aby pobrać ostatni adres</string>
+    <string name="location_text">Szerokość geograficzna %1$.4f \n Długość geograficzna: %2$.4f \n Czas: %3$tr</string>
+    <string name="no_location">Brak lokalizacji</string>
+    <string name="address_text">Adres: %1$s \n Czas: %2$tr</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="no_address_found">No address found</string>
+</resources>
