@@ -1,6 +1,6 @@
 package pl.edu.pb.sensorappp;
 
-import static pl.edu.pb.sensorappp.SensorDetailsActivity.EXTRA_SENSOR_TYPE_PARAMETER;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -24,9 +24,10 @@ import android.widget.TextView;
 import java.util.Arrays;
 import java.util.List;
 
-
+import static pl.edu.pb.sensorappp.SensorDetailsActivity.EXTRA_SENSOR_TYPE_PARAMETER;
 
 public class SensorActivity extends AppCompatActivity {
+
     private SensorManager sensorManager;
     private List<Sensor> sensorList;
     private RecyclerView recyclerView;
@@ -36,7 +37,6 @@ public class SensorActivity extends AppCompatActivity {
     private final List<Integer> favourSensors = Arrays.asList(Sensor.TYPE_LIGHT, Sensor.TYPE_AMBIENT_TEMPERATURE);
     public static final int SENSOR_DETAILS_ACTIVITY_REQUEST_CODE = 1;
     public static final int LOCATION_ACTIVITY_REQUEST_CODE = 1;
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -51,7 +51,6 @@ public class SensorActivity extends AppCompatActivity {
         getSupportActionBar().setSubtitle(string);
         return true;
     }
-
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override

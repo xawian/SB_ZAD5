@@ -42,7 +42,6 @@ public class SensorDetailsActivity extends AppCompatActivity implements SensorEv
     @Override
     protected void onStart() {
         super.onStart();
-
         if(sensor != null){
             sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
         }

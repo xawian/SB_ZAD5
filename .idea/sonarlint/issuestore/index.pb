@@ -5,7 +5,3 @@ P
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-l
-<app/src/main/java/pl/edu/pb/sensorappp/LocationActivity.java,4\e\4e70b4b493bcfafb913861e062c09ca8f6d1d74c
-q
-Aapp/src/main/java/pl/edu/pb/sensorappp/SensorDetailsActivity.java,d\6\d61c89b92b945fa64c251299937029d23eb8438a
